@@ -1,0 +1,6 @@
+framework module FYPopupController {
+  umbrella header "FYPopupController-umbrella.h"
+
+  export *
+  module * { export * }
+}

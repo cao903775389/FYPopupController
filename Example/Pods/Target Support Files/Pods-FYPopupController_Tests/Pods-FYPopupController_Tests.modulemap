@@ -1,0 +1,6 @@
+framework module Pods_FYPopupController_Tests {
+  umbrella header "Pods-FYPopupController_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
