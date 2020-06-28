@@ -19,13 +19,31 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.view.backgroundColor = [UIColor greenColor];
+    self.view.backgroundColor = [UIColor cyanColor];
     self.slider = [[UISlider alloc] initWithFrame:CGRectMake(100, 50, 200, 100)];
     self.slider.continuous = YES;
     [self.slider addTarget:self action:@selector(sliderValueChange:) forControlEvents:UIControlEventValueChanged];
     [self.view addSubview:self.slider];
-    
     [self updatePreferredContentSizeWithTraitCollection:self.traitCollection];
+    
+    
+    UIAlertController *alertVC = [UIAlertController alertControllerWithTitle:nil message:@"66" preferredStyle:UIAlertControllerStyleActionSheet];
+
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"cancel" style:UIAlertActionStyleCancel handler:^(UIAlertAction * _Nonnull action) {
+
+    }]];
+
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"111" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+
+    }]];
+
+    [alertVC addAction:[UIAlertAction actionWithTitle:@"222" style:UIAlertActionStyleDestructive handler:^(UIAlertAction * _Nonnull action) {
+
+    }]];
+
+    [self addChildViewController:alertVC];
+    [self.view addSubview:alertVC.view];
+////    alertVC.v
 }
 
 - (void)willTransitionToTraitCollection:(UITraitCollection *)newCollection withTransitionCoordinator:(id<UIViewControllerTransitionCoordinator>)coordinator {

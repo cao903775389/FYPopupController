@@ -7,13 +7,10 @@
 //
 
 #import "FYViewController.h"
-#import <FYPopupController/FYPopupController.h>
+#import <FYPopupController/UIViewController+FYPopup.h>
 #import "FYDemoContentViewController.h"
 
 @interface FYViewController ()
-
-@property (nonatomic, strong) FYPopupController *popUpController;
-
 @end
 
 @implementation FYViewController
@@ -26,22 +23,7 @@
 }
 
 - (IBAction)onClickPopupButton:(UIButton *)sender {
-        
-    UIViewController *contentViewController = [[FYDemoContentViewController alloc] init];
-    self.popUpController = [[FYPopupController alloc] init];
-    contentViewController.transitioningDelegate = _popUpController;
-    contentViewController.modalPresentationStyle = UIModalPresentationCustom;
-    
-    [self presentViewController:contentViewController animated:YES completion:^{
-        
-    }];
-    
-}
-
-- (void)didReceiveMemoryWarning
-{
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    [self show:[[FYDemoContentViewController alloc] init] style:FYPopupStyleRoundedCorner];
 }
 
 @end

@@ -9,7 +9,18 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface FYPopupPresentationController : UIPresentationController
+typedef NS_ENUM(NSUInteger, FYPopupStyle) {
+    FYPopupStyleDefault = 0,
+    FYPopupStyleRoundedCorner = 1,
+};
+
+
+@interface FYPopupPresentationController : UIPresentationController <UIViewControllerTransitioningDelegate>
+
+// default 16
+@property (nonatomic, assign) CGFloat cornerRadius;
+
+@property (nonatomic, assign) FYPopupStyle style;
 
 @end
 

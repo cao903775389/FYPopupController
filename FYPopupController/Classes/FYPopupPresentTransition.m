@@ -9,6 +9,10 @@
 
 @implementation FYPopupPresentTransition
 
+- (void)dealloc {
+    NSLog(@"%@ dealloc", [self class]);
+}
+
 - (NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
     return [transitionContext isAnimated] ? 0.35 : 0;
 }
@@ -26,23 +30,18 @@
     __unused CGRect fromInitFrame = [transitionContext initialFrameForViewController:fromViewController];
     CGRect fromFinalFrame = [transitionContext finalFrameForViewController:fromViewController];
     
-    CGRect toInitFrame = [transitionContext initialFrameForViewController:toViewController];
+    __unused CGRect toInitFrame = [transitionContext initialFrameForViewController:toViewController];
     CGRect toFinalFrame = [transitionContext finalFrameForViewController:toViewController];
     
     [containerView addSubview:toView];
     
-    if (self.isPresenting) {
-        // Present
-        toInitFrame.origin = CGPointMake(CGRectGetMinX(containerView.bounds), CGRectGetMaxY(containerView.bounds));
-        toInitFrame.size = toFinalFrame.size;
-        toView.frame = toInitFrame;
+    if (_isPresenting) {
+        // For a presentation, the toView starts off-screen and slides in.
+        toView.frame = CGRectMake(0, containerView.frame.size.height, toFinalFrame.size.width, toFinalFrame.size.height);
     } else {
-        // Dismiss
-        fromFinalFrame = CGRectOffset(fromView.frame, 0, CGRectGetHeight(fromView.frame));
+        fromFinalFrame = CGRectMake(0, containerView.frame.size.height, fromFinalFrame.size.width, fromFinalFrame.size.height);
     }
-    
     NSTimeInterval transitionDuration = [self transitionDuration:transitionContext];
-    
     [UIView animateWithDuration:transitionDuration animations:^{
         if (self.isPresenting) {
             toView.frame = toFinalFrame;
@@ -50,9 +49,6 @@
             fromView.frame = fromFinalFrame;
         }
     } completion:^(BOOL finished) {
-        // When we complete, tell the transition context
-        // passing along the BOOL that indicates whether the transition
-        // finished or not.
         BOOL wasCancelled = [transitionContext transitionWasCancelled];
         [transitionContext completeTransition:!wasCancelled];
     }];

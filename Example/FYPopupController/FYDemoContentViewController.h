@@ -7,8 +7,6 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <FYPopupController/FYPopupController.h>
-
 NS_ASSUME_NONNULL_BEGIN
 
 @interface FYDemoContentViewController : UIViewController

@@ -10,9 +10,10 @@
 #endif
 #endif
 
-#import "FYPopupController.h"
+#import "FYPopupDismissInteractiveTransition.h"
 #import "FYPopupPresentationController.h"
 #import "FYPopupPresentTransition.h"
+#import "UIViewController+FYPopup.h"
 
 FOUNDATION_EXPORT double FYPopupControllerVersionNumber;
 FOUNDATION_EXPORT const unsigned char FYPopupControllerVersionString[];

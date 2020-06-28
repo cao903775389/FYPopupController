@@ -8,41 +8,43 @@
 
 /* Begin PBXBuildFile section */
 		00224C929D57F45B70E87359E719948D /* FBSnapshotTestCase.h in Headers */ = {isa = PBXBuildFile; fileRef = FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		01DF39B9668C6D0CB637A7167474C172 /* FYPopupPresentTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 811DFE3768E60DA13CF86C0F168EAAC1 /* FYPopupPresentTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		05B9BA6C31F8E3C455C8AB3F19E5A824 /* FYPopupPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C3E5767682529730F477D8F6D3B3E27 /* FYPopupPresentationController.m */; };
 		11C410135C7E89353B480AC8DE0BFB77 /* UIApplication+StrictKeyWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */; };
 		14AD81D52FAD9CF2C065C61FB00C3B4F /* UIImage+Diff.m in Sources */ = {isa = PBXBuildFile; fileRef = 4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */; };
 		14C511527597E5846AB2627F791C7D8E /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */; };
+		2D76598D6F2FDBD6DF6D1AB625C067CF /* FYPopupPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = FC62F582859511A2D7314C1BB3464125 /* FYPopupPresentTransition.m */; };
 		2DCFF0CE0BD295F1D46D3247F36B192C /* UIImage+Compare.m in Sources */ = {isa = PBXBuildFile; fileRef = 235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */; };
+		37516437E3B011F8DACE9C469B188365 /* UIViewController+FYPopup.h in Headers */ = {isa = PBXBuildFile; fileRef = 94A413CECC3F0C6B0623172896E903A6 /* UIViewController+FYPopup.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		40039E0AF0D764360B1D4FC4F7950D2E /* UIApplication+StrictKeyWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		6AE239C5D116E1C06F5705699FB9EAF0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */; };
 		6C1C682F62A1A1F5203E4E2C4AABCA3D /* Pods-FYPopupController_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 10D9C0F9A8366107CC50195712DDD7C3 /* Pods-FYPopupController_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6DBC8EB7532E931C2FBDA71D1E0B66A4 /* FBSnapshotTestCase-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */; };
-		71D98C67B205B1EE0D2C338650F6635B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		7ADA9F6CD55D558C683453934A2ECDBC /* FYPopupPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE41083C25AA28DE86B9B5095F220589 /* FYPopupPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D57B54C1F221088DA90F80FFEA3D56F /* FYPopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 30BF5B9AC40B6506B853E968701B9125 /* FYPopupController-dummy.m */; };
+		74568C1F7B9BE4211ED46AF0C1963168 /* FYPopupPresentationController.h in Headers */ = {isa = PBXBuildFile; fileRef = C7D552FB71D70BA6F816595AB3C93C79 /* FYPopupPresentationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		88396E68DC05A379282F3B374F75F43C /* FBSnapshotTestController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */; };
 		8CE3BF0ACE07EA42DD5DAC871BF4B767 /* FBSnapshotTestCase.m in Sources */ = {isa = PBXBuildFile; fileRef = 277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */; };
 		90142C6259374E18E640396A59AD379A /* FBSnapshotTestController.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9255CA1D014BD990568ECA8F902A2945 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
-		97DE7848C434119853C564193FC994C3 /* FYPopupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 706AAF2F8850B61C5F61087DF78B406C /* FYPopupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9D65089019D558E5A9661F2DCAD20313 /* SwiftSupport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */; };
 		9DF208D75EF99CB76CAE2E268EAC7521 /* Pods-FYPopupController_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EF8D35586C50A4B22FD3AFCCB1C0B152 /* Pods-FYPopupController_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F19D9C32FAEEDE8331502C6D8B5605E /* FYPopupPresentationController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9BF9F1B635DE8DE65FD13388475FDE /* FYPopupPresentationController.m */; };
+		A102D99A227443CFF259F5C01D52FDA0 /* FYPopupDismissInteractiveTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 8D9E2647C8B8E727E99987847944B65E /* FYPopupDismissInteractiveTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A525E29E0A8079B35B793D8A2B5FBDF2 /* UIImage+Snapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */; };
+		A6F7010A7F459CA878630B06AB83FB72 /* FYPopupPresentTransition.h in Headers */ = {isa = PBXBuildFile; fileRef = 549056A5081E58E296D9EFF916169966 /* FYPopupPresentTransition.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B1274C0405744E7FC553994E68750D45 /* FYPopupController-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5AB1F675DE2F1B152AE37546A2343F81 /* FYPopupController-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B25D795BDC4F426BC01EFC911F368B81 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 		B74CD6E6EBEA0B642776BCB37850415D /* UIImage+Snapshot.h in Headers */ = {isa = PBXBuildFile; fileRef = 284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		BBE9AD2A895F65B239742308FEA753A3 /* Pods-FYPopupController_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B5B80550CA51F1ADCB12358C92A2AD1 /* Pods-FYPopupController_Tests-dummy.m */; };
 		C49D52712466511E332C952834C81FE1 /* FBSnapshotTestCasePlatform.h in Headers */ = {isa = PBXBuildFile; fileRef = 88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8150E301B290964CBD00FE69DEEC022 /* FYPopupPresentTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C551969AB3215EBFFE708707627E25 /* FYPopupPresentTransition.m */; };
+		C5335A9B69CB64F2B3C24B2B5153658A /* FYPopupDismissInteractiveTransition.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C3A907C2AF6F3933524829180EED065 /* FYPopupDismissInteractiveTransition.m */; };
 		D04AAC8B22E4A4DC4F39891C4E52F251 /* UIImage+Diff.h in Headers */ = {isa = PBXBuildFile; fileRef = 96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */; settings = {ATTRIBUTES = (Private, ); }; };
-		D54C369B44FF4A209F3B0A9D7667F659 /* FYPopupController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC84DDE4921C4A910D5BCFB9579E9ACB /* FYPopupController.m */; };
+		D883544990460771A27F00AE77E4EECE /* UIViewController+FYPopup.m in Sources */ = {isa = PBXBuildFile; fileRef = BBEB7E391C32ABE79C48778C1C9BFB1F /* UIViewController+FYPopup.m */; };
 		DD078E8060DE83623F34CD5B6635BFB9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
+		DE73154528C92BFB3836C95F8342A3A2 /* FYPopupController-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE60845D17CBAD5CF1C1E377EB890F8B /* FYPopupController-dummy.m */; };
 		E0B8D095C732352C854D365B9E5B993D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */; };
 		E8AC509D18EBF21B1FEA909652A01108 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */; };
 		F1AAAE00BB32B733B238E2B4E8424506 /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		F720FAF13A108CE6901E0A8B0580E1E8 /* FBSnapshotTestCase-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FB8EA7864A2021852456A073D4EF44E8 /* Pods-FYPopupController_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D9E88C804F025CBB42226F1EB346B18 /* Pods-FYPopupController_Example-dummy.m */; };
-		FE7AB0FDD975E43F2B27135E3C72804E /* FYPopupController.h in Headers */ = {isa = PBXBuildFile; fileRef = 72AD62E17859E67C55D2CF44852A6653 /* FYPopupController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE56E92ADBDEC948C125C77064A6F584 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +73,7 @@
 
 /* Begin PBXFileReference section */
 		0177EE6187125990A3456C530201721B /* Pods_FYPopupController_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYPopupController_Example.framework; path = "Pods-FYPopupController_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042D47D843D2E3CDF2585B51DB998829 /* FYPopupController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYPopupController-Info.plist"; sourceTree = "<group>"; };
 		0B5B80550CA51F1ADCB12358C92A2AD1 /* Pods-FYPopupController_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYPopupController_Tests-dummy.m"; sourceTree = "<group>"; };
 		0F538C426803AE34255FC6E35B408CCA /* UIApplication+StrictKeyWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+StrictKeyWindow.m"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m"; sourceTree = "<group>"; };
 		10D9C0F9A8366107CC50195712DDD7C3 /* Pods-FYPopupController_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYPopupController_Tests-umbrella.h"; sourceTree = "<group>"; };
@@ -78,62 +81,63 @@
 		15EFF0156A9903D10025ABD1A544D591 /* Pods-FYPopupController_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYPopupController_Tests-Info.plist"; sourceTree = "<group>"; };
 		1ADA6E655DC84D06359BD0ED5E36C783 /* FBSnapshotTestCase-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FBSnapshotTestCase-dummy.m"; sourceTree = "<group>"; };
 		235A78CFFA6D8B8D86CACD733531CB13 /* UIImage+Compare.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Compare.m"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.m"; sourceTree = "<group>"; };
+		251387D8790FB55B93509196A7D52B5B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		267C6F24C7FDF8476B64DB4A73A71C42 /* Pods-FYPopupController_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-FYPopupController_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		277B6BE10C665F515606A22FD60C6DCC /* FBSnapshotTestCase.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCase.m; path = FBSnapshotTestCase/FBSnapshotTestCase.m; sourceTree = "<group>"; };
 		284833D18C244D2B42966B6EE425AA59 /* UIImage+Snapshot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Snapshot.h"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.h"; sourceTree = "<group>"; };
-		30BF5B9AC40B6506B853E968701B9125 /* FYPopupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYPopupController-dummy.m"; sourceTree = "<group>"; };
-		3707F9F447855775D5B2023243DE30C5 /* FYPopupController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYPopupController.release.xcconfig; sourceTree = "<group>"; };
+		2A6DA28772D2D14A2D5CA6EBB5509BEA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		373DEFA9BFDD58C560A405A77D86B908 /* FYPopupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYPopupController-prefix.pch"; sourceTree = "<group>"; };
 		39F7C85CECB43A690B80590243F755B0 /* Pods-FYPopupController_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYPopupController_Example.modulemap"; sourceTree = "<group>"; };
+		3C3A907C2AF6F3933524829180EED065 /* FYPopupDismissInteractiveTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYPopupDismissInteractiveTransition.m; path = FYPopupController/Classes/FYPopupDismissInteractiveTransition.m; sourceTree = "<group>"; };
 		3DB7B10817A36EFA39742D578C8503FB /* FYPopupController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FYPopupController.framework; path = FYPopupController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F0D66CF296ABBC57EC4D0452397E235 /* SwiftSupport.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftSupport.swift; path = FBSnapshotTestCase/SwiftSupport.swift; sourceTree = "<group>"; };
+		404DF670865B863A646131435A1C8A42 /* FYPopupController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYPopupController.debug.xcconfig; sourceTree = "<group>"; };
 		4568279DE47DC3AB91598E1317503995 /* UIImage+Diff.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Diff.m"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.m"; sourceTree = "<group>"; };
 		48477DD36390E2CAFACA5FFB659D6CFD /* Pods-FYPopupController_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYPopupController_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4C3E5767682529730F477D8F6D3B3E27 /* FYPopupPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYPopupPresentationController.m; path = FYPopupController/Classes/FYPopupPresentationController.m; sourceTree = "<group>"; };
 		4C6513B09838318BD763CFD5390D1DE0 /* FBSnapshotTestCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.release.xcconfig; sourceTree = "<group>"; };
 		4D9E88C804F025CBB42226F1EB346B18 /* Pods-FYPopupController_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-FYPopupController_Example-dummy.m"; sourceTree = "<group>"; };
+		549056A5081E58E296D9EFF916169966 /* FYPopupPresentTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYPopupPresentTransition.h; path = FYPopupController/Classes/FYPopupPresentTransition.h; sourceTree = "<group>"; };
+		5AB1F675DE2F1B152AE37546A2343F81 /* FYPopupController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYPopupController-umbrella.h"; sourceTree = "<group>"; };
 		5C4F31330DFA99D699E4BDC8C3573D73 /* FBSnapshotTestCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = FBSnapshotTestCase.framework; path = FBSnapshotTestCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E601BD54DA9BF4071437E60125281FA /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		6025248FEBEF6779F3CAA17858328923 /* FYPopupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYPopupController.modulemap; sourceTree = "<group>"; };
-		62414AC3736023A0B6090060880A3F6A /* FYPopupController.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYPopupController.debug.xcconfig; sourceTree = "<group>"; };
 		656116C8FA5458F45D4707110C9530EC /* UIImage+Compare.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Compare.h"; path = "FBSnapshotTestCase/Categories/UIImage+Compare.h"; sourceTree = "<group>"; };
-		6ABB37BA6AE71C0924E4B8622C3AC418 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		692845EB835FCFAC7EE602F3D9666ECA /* FYPopupController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYPopupController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6ABB3EB3CCC5BCA82F40FE8DC87BB778 /* FBSnapshotTestCasePlatform.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestCasePlatform.m; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.m; sourceTree = "<group>"; };
-		706AAF2F8850B61C5F61087DF78B406C /* FYPopupController-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYPopupController-umbrella.h"; sourceTree = "<group>"; };
 		716A9972B9D9103B54DB950893FAF104 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
-		72AD62E17859E67C55D2CF44852A6653 /* FYPopupController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYPopupController.h; path = FYPopupController/Classes/FYPopupController.h; sourceTree = "<group>"; };
+		798F7C6102EC2CE72CCF1B750423B96D /* FYPopupController.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FYPopupController.release.xcconfig; sourceTree = "<group>"; };
 		7BD4ED544B638D07C7D755AF1C27116A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7C4ACE77F3BC6072E7D7DABFD660DE1C /* Pods-FYPopupController_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYPopupController_Example.release.xcconfig"; sourceTree = "<group>"; };
 		7CBF7B316C6D524983D1B1EAD3E41C62 /* Pods-FYPopupController_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYPopupController_Example-frameworks.sh"; sourceTree = "<group>"; };
 		7E1B7EA746BF6557FD565BAE12AF9198 /* FBSnapshotTestController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FBSnapshotTestController.m; path = FBSnapshotTestCase/FBSnapshotTestController.m; sourceTree = "<group>"; };
-		7F436FC05E06DA285B3F0DA6140285AC /* FYPopupController-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FYPopupController-Info.plist"; sourceTree = "<group>"; };
-		811DFE3768E60DA13CF86C0F168EAAC1 /* FYPopupPresentTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYPopupPresentTransition.h; path = FYPopupController/Classes/FYPopupPresentTransition.h; sourceTree = "<group>"; };
 		818C748EE70DADCE8F1BA7EA3DE8DBCB /* Pods-FYPopupController_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYPopupController_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		82B7840A4339E77B9B9930E648E64C08 /* Pods-FYPopupController_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-FYPopupController_Tests.modulemap"; sourceTree = "<group>"; };
 		88B1DEEBF6316A84D7413645212492FF /* FBSnapshotTestCasePlatform.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCasePlatform.h; path = FBSnapshotTestCase/FBSnapshotTestCasePlatform.h; sourceTree = "<group>"; };
 		8CAA89EEF1039078430D7A886477E365 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		8D9E2647C8B8E727E99987847944B65E /* FYPopupDismissInteractiveTransition.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYPopupDismissInteractiveTransition.h; path = FYPopupController/Classes/FYPopupDismissInteractiveTransition.h; sourceTree = "<group>"; };
 		8E5923010B02074CAA9AAF6EA02D66AA /* FBSnapshotTestCase-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-umbrella.h"; sourceTree = "<group>"; };
 		9468E867498BBAF36F9AFFE4845F8B09 /* FBSnapshotTestCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = FBSnapshotTestCase.debug.xcconfig; sourceTree = "<group>"; };
+		94A413CECC3F0C6B0623172896E903A6 /* UIViewController+FYPopup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+FYPopup.h"; path = "FYPopupController/Classes/UIViewController+FYPopup.h"; sourceTree = "<group>"; };
 		94FB62C32FAACEA60F0783F8B8A2F97E /* Pods_FYPopupController_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_FYPopupController_Tests.framework; path = "Pods-FYPopupController_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		96187BF3038121CC146335E9FF0B0AFF /* UIImage+Diff.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Diff.h"; path = "FBSnapshotTestCase/Categories/UIImage+Diff.h"; sourceTree = "<group>"; };
 		99A67367E018411D614EC8536A8A1C5B /* UIApplication+StrictKeyWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIApplication+StrictKeyWindow.h"; path = "FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		AE60845D17CBAD5CF1C1E377EB890F8B /* FYPopupController-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "FYPopupController-dummy.m"; sourceTree = "<group>"; };
 		AE9FF9459FBCDC4AF88FB6B5A4CC1439 /* FBSnapshotTestController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestController.h; path = FBSnapshotTestCase/FBSnapshotTestController.h; sourceTree = "<group>"; };
 		B7103CA00AED20722C5B69CA5B4F6938 /* FBSnapshotTestCase-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "FBSnapshotTestCase-Info.plist"; sourceTree = "<group>"; };
 		BAC3B07D5F457558463C20E5D11CB66A /* Pods-FYPopupController_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYPopupController_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		BC1BFB9906845C8BA498E13FA27501E9 /* FYPopupController-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FYPopupController-prefix.pch"; sourceTree = "<group>"; };
-		BC84DDE4921C4A910D5BCFB9579E9ACB /* FYPopupController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYPopupController.m; path = FYPopupController/Classes/FYPopupController.m; sourceTree = "<group>"; };
+		BBEB7E391C32ABE79C48778C1C9BFB1F /* UIViewController+FYPopup.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+FYPopup.m"; path = "FYPopupController/Classes/UIViewController+FYPopup.m"; sourceTree = "<group>"; };
+		C7D552FB71D70BA6F816595AB3C93C79 /* FYPopupPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYPopupPresentationController.h; path = FYPopupController/Classes/FYPopupPresentationController.h; sourceTree = "<group>"; };
 		CBFF6C5FD9C3A84274A9314D3E940B6E /* FBSnapshotTestCase.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FBSnapshotTestCase.modulemap; sourceTree = "<group>"; };
-		CE9BF9F1B635DE8DE65FD13388475FDE /* FYPopupPresentationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYPopupPresentationController.m; path = FYPopupController/Classes/FYPopupPresentationController.m; sourceTree = "<group>"; };
 		D08CEBB9BDD9EF7A662ECFC0305C169E /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
-		D0C551969AB3215EBFFE708707627E25 /* FYPopupPresentTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYPopupPresentTransition.m; path = FYPopupController/Classes/FYPopupPresentTransition.m; sourceTree = "<group>"; };
-		D8522B185D259DC78D94104DD8433D0D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Snapshot.m"; path = "FBSnapshotTestCase/Categories/UIImage+Snapshot.m"; sourceTree = "<group>"; };
 		DA5390AF3FE874B59B92D2C658FD82B7 /* Pods-FYPopupController_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYPopupController_Example-Info.plist"; sourceTree = "<group>"; };
+		E014B27E6618A7D9A32A57A3F6685C21 /* FYPopupController.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = FYPopupController.modulemap; sourceTree = "<group>"; };
 		E2DE242FDEC0358EDA35A1BD52CA4684 /* Pods-FYPopupController_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-FYPopupController_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		E9E99835F05C673C4B8AC79506E26CEC /* Pods-FYPopupController_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-FYPopupController_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		EBA8260B53C53E334E126799C09B92A6 /* FYPopupController.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = FYPopupController.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		EF8D35586C50A4B22FD3AFCCB1C0B152 /* Pods-FYPopupController_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-FYPopupController_Example-umbrella.h"; sourceTree = "<group>"; };
 		F9F0B17E114AD6A93352E05DB6930036 /* Pods-FYPopupController_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-FYPopupController_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		FE41083C25AA28DE86B9B5095F220589 /* FYPopupPresentationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FYPopupPresentationController.h; path = FYPopupController/Classes/FYPopupPresentationController.h; sourceTree = "<group>"; };
+		FC62F582859511A2D7314C1BB3464125 /* FYPopupPresentTransition.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FYPopupPresentTransition.m; path = FYPopupController/Classes/FYPopupPresentTransition.m; sourceTree = "<group>"; };
 		FEE661E58CA6655B39AA49AA4C021C33 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,11 +150,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C292723FF1A1E8382AED263C3E0D4CAE /* Frameworks */ = {
+		C6474C95E7A92A31C11EF9F6DC3EDCD5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71D98C67B205B1EE0D2C338650F6635B /* Foundation.framework in Frameworks */,
+				FE56E92ADBDEC948C125C77064A6F584 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,14 +180,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		17CAA8A6119CB4037C9CF3D7016355F5 /* Pod */ = {
+		2019B4002F1CF8DC19ADB3FCAC05A8C0 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				EBA8260B53C53E334E126799C09B92A6 /* FYPopupController.podspec */,
-				D8522B185D259DC78D94104DD8433D0D /* LICENSE */,
-				6ABB37BA6AE71C0924E4B8622C3AC418 /* README.md */,
+				DE6DD90E078114A9DD51704909AC4490 /* FYPopupController */,
 			);
-			name = Pod;
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		2713AC24E3625B728F09B4E4247834D5 /* Targets Support Files */ = {
@@ -193,14 +195,6 @@
 				F5E825C5D9A2C6B6B03613222F5AFE2D /* Pods-FYPopupController_Tests */,
 			);
 			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		3748B9DB69602DA9A77D8055C42CB927 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				93C92F80A783CD454159A41F7FBF385B /* FYPopupController */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		4BA2479549DD918290454B1CDCD0B92B /* Core */ = {
@@ -222,21 +216,6 @@
 				D872A3EE224412D4057C234FBC629F9C /* UIImage+Snapshot.m */,
 			);
 			name = Core;
-			sourceTree = "<group>";
-		};
-		5D66CFE13D46C4DC22C312D08EE2C701 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				6025248FEBEF6779F3CAA17858328923 /* FYPopupController.modulemap */,
-				30BF5B9AC40B6506B853E968701B9125 /* FYPopupController-dummy.m */,
-				7F436FC05E06DA285B3F0DA6140285AC /* FYPopupController-Info.plist */,
-				BC1BFB9906845C8BA498E13FA27501E9 /* FYPopupController-prefix.pch */,
-				706AAF2F8850B61C5F61087DF78B406C /* FYPopupController-umbrella.h */,
-				62414AC3736023A0B6090060880A3F6A /* FYPopupController.debug.xcconfig */,
-				3707F9F447855775D5B2023243DE30C5 /* FYPopupController.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/FYPopupController";
 			sourceTree = "<group>";
 		};
 		61BC86ABF5603ED3DEF37EE64D9232F8 /* Products */ = {
@@ -261,6 +240,21 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		89A5568BACC744F5AA7F07BBE3C292AB /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E014B27E6618A7D9A32A57A3F6685C21 /* FYPopupController.modulemap */,
+				AE60845D17CBAD5CF1C1E377EB890F8B /* FYPopupController-dummy.m */,
+				042D47D843D2E3CDF2585B51DB998829 /* FYPopupController-Info.plist */,
+				373DEFA9BFDD58C560A405A77D86B908 /* FYPopupController-prefix.pch */,
+				5AB1F675DE2F1B152AE37546A2343F81 /* FYPopupController-umbrella.h */,
+				404DF670865B863A646131435A1C8A42 /* FYPopupController.debug.xcconfig */,
+				798F7C6102EC2CE72CCF1B750423B96D /* FYPopupController.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/FYPopupController";
+			sourceTree = "<group>";
+		};
 		906402ECC4C6C5EB58DD365FD2C64E92 /* SwiftSupport */ = {
 			isa = PBXGroup;
 			children = (
@@ -269,20 +263,14 @@
 			name = SwiftSupport;
 			sourceTree = "<group>";
 		};
-		93C92F80A783CD454159A41F7FBF385B /* FYPopupController */ = {
+		9D8268BDE8835CA24E95C484E824B8FA /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				72AD62E17859E67C55D2CF44852A6653 /* FYPopupController.h */,
-				BC84DDE4921C4A910D5BCFB9579E9ACB /* FYPopupController.m */,
-				FE41083C25AA28DE86B9B5095F220589 /* FYPopupPresentationController.h */,
-				CE9BF9F1B635DE8DE65FD13388475FDE /* FYPopupPresentationController.m */,
-				811DFE3768E60DA13CF86C0F168EAAC1 /* FYPopupPresentTransition.h */,
-				D0C551969AB3215EBFFE708707627E25 /* FYPopupPresentTransition.m */,
-				17CAA8A6119CB4037C9CF3D7016355F5 /* Pod */,
-				5D66CFE13D46C4DC22C312D08EE2C701 /* Support Files */,
+				692845EB835FCFAC7EE602F3D9666ECA /* FYPopupController.podspec */,
+				251387D8790FB55B93509196A7D52B5B /* LICENSE */,
+				2A6DA28772D2D14A2D5CA6EBB5509BEA /* README.md */,
 			);
-			name = FYPopupController;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		B69B2ECE2D2C9A3924A9231138CE0BBC /* Support Files */ = {
@@ -340,12 +328,30 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				3748B9DB69602DA9A77D8055C42CB927 /* Development Pods */,
+				2019B4002F1CF8DC19ADB3FCAC05A8C0 /* Development Pods */,
 				BA4F31F07263C99FC76E66D632A59F09 /* Frameworks */,
 				E81A37DBDE41E671312C56736544E2FA /* Pods */,
 				61BC86ABF5603ED3DEF37EE64D9232F8 /* Products */,
 				2713AC24E3625B728F09B4E4247834D5 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		DE6DD90E078114A9DD51704909AC4490 /* FYPopupController */ = {
+			isa = PBXGroup;
+			children = (
+				8D9E2647C8B8E727E99987847944B65E /* FYPopupDismissInteractiveTransition.h */,
+				3C3A907C2AF6F3933524829180EED065 /* FYPopupDismissInteractiveTransition.m */,
+				C7D552FB71D70BA6F816595AB3C93C79 /* FYPopupPresentationController.h */,
+				4C3E5767682529730F477D8F6D3B3E27 /* FYPopupPresentationController.m */,
+				549056A5081E58E296D9EFF916169966 /* FYPopupPresentTransition.h */,
+				FC62F582859511A2D7314C1BB3464125 /* FYPopupPresentTransition.m */,
+				94A413CECC3F0C6B0623172896E903A6 /* UIViewController+FYPopup.h */,
+				BBEB7E391C32ABE79C48778C1C9BFB1F /* UIViewController+FYPopup.m */,
+				9D8268BDE8835CA24E95C484E824B8FA /* Pod */,
+				89A5568BACC744F5AA7F07BBE3C292AB /* Support Files */,
+			);
+			name = FYPopupController;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		E81A37DBDE41E671312C56736544E2FA /* Pods */ = {
@@ -376,6 +382,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		3793D79BF56058C9366E2A99FDBEB44C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B1274C0405744E7FC553994E68750D45 /* FYPopupController-umbrella.h in Headers */,
+				A102D99A227443CFF259F5C01D52FDA0 /* FYPopupDismissInteractiveTransition.h in Headers */,
+				74568C1F7B9BE4211ED46AF0C1963168 /* FYPopupPresentationController.h in Headers */,
+				A6F7010A7F459CA878630B06AB83FB72 /* FYPopupPresentTransition.h in Headers */,
+				37516437E3B011F8DACE9C469B188365 /* UIViewController+FYPopup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		384DE8A8021C5DA5E256BCFEC3D478A9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -407,17 +425,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		803D786CF8DFD0A13B29013719A737B4 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				97DE7848C434119853C564193FC994C3 /* FYPopupController-umbrella.h in Headers */,
-				FE7AB0FDD975E43F2B27135E3C72804E /* FYPopupController.h in Headers */,
-				7ADA9F6CD55D558C683453934A2ECDBC /* FYPopupPresentationController.h in Headers */,
-				01DF39B9668C6D0CB637A7167474C172 /* FYPopupPresentTransition.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
@@ -442,12 +449,12 @@
 		};
 		44594FDA47DE2B2AFC6A1161AA344FC4 /* FYPopupController */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 852B5BD898E5C421BB13D2A38EDF28A9 /* Build configuration list for PBXNativeTarget "FYPopupController" */;
+			buildConfigurationList = 6C054C4A1E0BDC029EF69A1241CB4A6D /* Build configuration list for PBXNativeTarget "FYPopupController" */;
 			buildPhases = (
-				803D786CF8DFD0A13B29013719A737B4 /* Headers */,
-				34448A720C36DDD40DA3E479C2BA4477 /* Sources */,
-				C292723FF1A1E8382AED263C3E0D4CAE /* Frameworks */,
-				533476A10E1C88E8284D2F60FD9809C1 /* Resources */,
+				3793D79BF56058C9366E2A99FDBEB44C /* Headers */,
+				86930F153B0427181569A6B0E8E88B41 /* Sources */,
+				C6474C95E7A92A31C11EF9F6DC3EDCD5 /* Frameworks */,
+				A6E0172ED784628282EFC0C42D0841E5 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -534,13 +541,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		533476A10E1C88E8284D2F60FD9809C1 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5CC655F1A6C7A45A9693160581076BAE /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -555,25 +555,33 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		34448A720C36DDD40DA3E479C2BA4477 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
+		A6E0172ED784628282EFC0C42D0841E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D57B54C1F221088DA90F80FFEA3D56F /* FYPopupController-dummy.m in Sources */,
-				D54C369B44FF4A209F3B0A9D7667F659 /* FYPopupController.m in Sources */,
-				9F19D9C32FAEEDE8331502C6D8B5605E /* FYPopupPresentationController.m in Sources */,
-				C8150E301B290964CBD00FE69DEEC022 /* FYPopupPresentTransition.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
 		4BE8B42B3DA1BB74EE2A49784F7B41B6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FB8EA7864A2021852456A073D4EF44E8 /* Pods-FYPopupController_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		86930F153B0427181569A6B0E8E88B41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE73154528C92BFB3836C95F8342A3A2 /* FYPopupController-dummy.m in Sources */,
+				C5335A9B69CB64F2B3C24B2B5153658A /* FYPopupDismissInteractiveTransition.m in Sources */,
+				05B9BA6C31F8E3C455C8AB3F19E5A824 /* FYPopupPresentationController.m in Sources */,
+				2D76598D6F2FDBD6DF6D1AB625C067CF /* FYPopupPresentTransition.m in Sources */,
+				D883544990460771A27F00AE77E4EECE /* UIViewController+FYPopup.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -625,9 +633,9 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		2254C56DABC6E2E532FC99172498FB4B /* Release */ = {
+		3E21242AA42059EA1CD886D6283AE106 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3707F9F447855775D5B2023243DE30C5 /* FYPopupController.release.xcconfig */;
+			baseConfigurationReference = 798F7C6102EC2CE72CCF1B750423B96D /* FYPopupController.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -748,9 +756,9 @@
 			};
 			name = Release;
 		};
-		5110BC13DE9DCAA66DEA59CAACEA714D /* Debug */ = {
+		5189A60DAE4EC9711E69A667BF301D45 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 62414AC3736023A0B6090060880A3F6A /* FYPopupController.debug.xcconfig */;
+			baseConfigurationReference = 404DF670865B863A646131435A1C8A42 /* FYPopupController.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1021,20 +1029,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		6C054C4A1E0BDC029EF69A1241CB4A6D /* Build configuration list for PBXNativeTarget "FYPopupController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5189A60DAE4EC9711E69A667BF301D45 /* Debug */,
+				3E21242AA42059EA1CD886D6283AE106 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		80827E4F6882404884B3092CB5E9C8F0 /* Build configuration list for PBXNativeTarget "Pods-FYPopupController_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				826DF0778B6CA7EE026EC0EAE9F78B96 /* Debug */,
 				9C2F3E1D57959C59B21D8169CB7BCA7E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		852B5BD898E5C421BB13D2A38EDF28A9 /* Build configuration list for PBXNativeTarget "FYPopupController" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				5110BC13DE9DCAA66DEA59CAACEA714D /* Debug */,
-				2254C56DABC6E2E532FC99172498FB4B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
